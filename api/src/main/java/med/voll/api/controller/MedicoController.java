@@ -3,6 +3,7 @@ package med.voll.api.controller;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
+import med.voll.api.entity.Medico;
 import med.voll.api.medico.DadosCadastrosMedico;
 import med.voll.api.medico.MedicoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
